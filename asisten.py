@@ -80,7 +80,7 @@ def jalankan_asisten():
     bicara("Halo! Asisten Python dengan otak DeepSeek aktif. Ada yang bisa saya bantu?")
 
     while True:
-        perintah = dengar_perintah()
+        perintah = input("[Anda]: ").lower()
 
         if not perintah: 
             continue
